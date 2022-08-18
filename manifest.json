@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "changetitle",
+  "name": "更改标签页标题",
   "version": "1.0",
-  "description": "change title 插件",
+  "description": "An extension to change tab title",
   "background": {
     "service_worker": "js/event.js"
   },
