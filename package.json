@@ -1,0 +1,23 @@
+{
+  "name": "change-title-extension",
+  "version": "0.0.1",
+  "description": "An extension to change tab title",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bowlingQ/change-title-extension.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension"
+  ],
+  "author": "bowlingQ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bowlingQ/change-title-extension/issues"
+  },
+  "homepage": "https://github.com/bowlingQ/change-title-extension#readme"
+}
