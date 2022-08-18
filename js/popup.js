@@ -1,7 +1,6 @@
 document.getElementById("change").onclick = function () {
   const titleValue = document.getElementById("title").value;
-  chrome.tabs.query({ currentWindow: true }, (result) => {
-    result = result.filter((item) => item.active);
+  chrome.tabs.query({ currentWindow: true, active: true }, (result) => {
     function changeTitle(titleValue) {
       document.title = titleValue;
     }

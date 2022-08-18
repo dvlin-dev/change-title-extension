@@ -1,6 +1,6 @@
 {
   "name": "change-title-extension",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "An extension to change tab title",
   "main": "index.js",
   "scripts": {

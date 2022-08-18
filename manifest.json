@@ -3,12 +3,28 @@
   "name": "changetitle",
   "version": "1.0",
   "description": "change title 插件",
-
   "background": {
     "service_worker": "js/event.js"
   },
-  "permissions": ["tabs", "contextMenus", "scripting"],
-  "host_permissions": ["http://*/*", "https://*/*"],
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "js/content.js"
+      ]
+    }
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
