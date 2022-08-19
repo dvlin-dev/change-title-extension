@@ -1,5 +1,5 @@
 # change-title-extension
-An extension to change tab title
+一个改变标签页标题的扩展，在你开了多个便签页时，更好的记录每个便签页的功能。
 
 # 安装
 1. 进入 chrome://extensions/ ；
