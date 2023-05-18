@@ -1,17 +1,10 @@
 # change-title-extension
+An extension that changes the title of the tab to better record the functionality of each post-it page when you open multiple post-it pages.
+
 一个改变标签页标题的扩展，在你开了多个便签页时，更好的记录每个便签页的功能。
 
-# 安装
-1. 进入 chrome://extensions/ ；
-2. 打开右上角的开发者模式；
-3. 点击左上角加载已解压的扩展程序，导入即可。
+Usage 用法
 
-# 使用
+You can change the title of the tab by selecting the change title from the right-click menu, and then entering the title in the pop-up box.
 
-先在右键菜单中选择 **更改标题** ，随后在弹出框内输入标题，即可改变该标签页的标题。
-
-
-![extension-op](https://oss.sunxinao.cn/cloud-courier/upload/f1f5ec58ef13c83b9a928498caa98a34)
-![extension-op](https://oss.sunxinao.cn/cloud-courier/upload/e7c6750c87f53987e80d44d5bf13ebe7)
-
-> chrome://extensions/ 此页面不能使用
+您可以通过从右击菜单中选择更改标题，然后在弹出框中输入标题来更改选项卡的标题。

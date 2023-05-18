@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "更改标签页标题",
+  "name": "Change Tab Title",
   "version": "1.0",
   "description": "An extension to change tab title",
   "background": {
